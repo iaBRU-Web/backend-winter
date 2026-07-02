@@ -1,0 +1,100 @@
+EN: hello | FR: bonjour | RW: muraho
+EN: goodbye | FR: au revoir | RW: murabeho
+EN: thank you | FR: merci | RW: murakoze
+EN: you're welcome | FR: de rien | RW: ntacyo
+EN: good | FR: bon | RW: meza
+EN: bad | FR: mauvais | RW: mbi
+EN: yes | FR: oui | RW: yego
+EN: no | FR: non | RW: oya
+EN: please | FR: s'il vous plaît | RW: mfasha
+EN: how are you | FR: comment ça va | RW: amakuru
+EN: I am fine | FR: je vais bien | RW: ni meza
+EN: good morning | FR: bonjour | RW: mwaramutse
+EN: good evening | FR: bonsoir | RW: mwiriwe
+EN: good night | FR: bonne nuit | RW: muramuke
+EN: what is your name | FR: comment tu t'appelles | RW: witwa nde
+EN: my name is | FR: je m'appelle | RW: nitwa
+EN: game | FR: jeu | RW: umukino
+EN: code | FR: code | RW: kode
+EN: computer | FR: ordinateur | RW: mudasobwa
+EN: intelligence | FR: intelligence | RW: ubwenge
+EN: language | FR: langue | RW: ururimi
+EN: knowledge | FR: connaissance | RW: ubumenyi
+EN: reasoning | FR: raisonnement | RW: gutekereza
+EN: answer | FR: réponse | RW: igisubizo
+EN: question | FR: question | RW: ikibazo
+EN: Rwanda | FR: Rwanda | RW: u Rwanda
+EN: Africa | FR: Afrique | RW: Afurika
+EN: help | FR: aide | RW: ubufasha
+EN: learn | FR: apprendre | RW: kwiga
+EN: understand | FR: comprendre | RW: gusobanukirwa
+EN: friend | FR: ami | RW: inshuti
+EN: family | FR: famille | RW: umuryango
+EN: work | FR: travail | RW: akazi
+EN: today | FR: aujourd'hui | RW: uyu munsi
+EN: tomorrow | FR: demain | RW: ejo hazaza
+EN: yesterday | FR: hier | RW: ejo hashize
+EN: time | FR: temps | RW: igihe
+EN: money | FR: argent | RW: amafaranga
+EN: water | FR: eau | RW: amazi
+EN: food | FR: nourriture | RW: ibiryo
+EN: house | FR: maison | RW: inzu
+EN: school | FR: école | RW: ishuri
+EN: teacher | FR: professeur | RW: umwarimu
+EN: student | FR: étudiant | RW: umunyeshuri
+EN: book | FR: livre | RW: igitabo
+EN: love | FR: amour | RW: urukundo
+EN: peace | FR: paix | RW: amahoro
+EN: strong | FR: fort | RW: -komeye
+EN: fast | FR: rapide | RW: -hutashye
+EN: slow | FR: lent | RW: -tinda
+EN: big | FR: grand | RW: -nini
+EN: small | FR: petit | RW: -to
+EN: new | FR: nouveau | RW: -shya
+EN: old | FR: vieux | RW: -shaje
+EN: true | FR: vrai | RW: ukuri
+EN: false | FR: faux | RW: ikinyoma
+EN: number | FR: nombre | RW: umubare
+EN: name | FR: nom | RW: izina
+EN: country | FR: pays | RW: igihugu
+EN: city | FR: ville | RW: umujyi
+EN: village | FR: village | RW: umudugudu
+EN: mountain | FR: montagne | RW: umusozi
+EN: sun | FR: soleil | RW: izuba
+EN: moon | FR: lune | RW: ukwezi
+EN: star | FR: étoile | RW: inyenyeri
+EN: rain | FR: pluie | RW: imvura
+EN: fire | FR: feu | RW: umuriro
+EN: earth | FR: terre | RW: isi
+EN: sky | FR: ciel | RW: ikirere
+EN: tree | FR: arbre | RW: igiti
+EN: animal | FR: animal | RW: inyamaswa
+EN: person | FR: personne | RW: umuntu
+EN: child | FR: enfant | RW: umwana
+EN: mother | FR: mère | RW: umubyeyi
+EN: father | FR: père | RW: papa
+EN: brother | FR: frère | RW: musaza
+EN: sister | FR: sœur | RW: mushiki
+EN: king | FR: roi | RW: umwami
+EN: work together | FR: travailler ensemble | RW: gukorana
+EN: build | FR: construire | RW: kubaka
+EN: create | FR: créer | RW: kurema
+EN: think | FR: penser | RW: gutekereza
+EN: speak | FR: parler | RW: kuvuga
+EN: listen | FR: écouter | RW: kumva
+EN: write | FR: écrire | RW: kwandika
+EN: read | FR: lire | RW: gusoma
+EN: play | FR: jouer | RW: gukina
+EN: run | FR: courir | RW: kwiruka
+EN: walk | FR: marcher | RW: kugenda
+EN: sleep | FR: dormir | RW: kuryama
+EN: wake up | FR: se réveiller | RW: kubyuka
+EN: eat | FR: manger | RW: kurya
+EN: drink | FR: boire | RW: kunywa
+EN: give | FR: donner | RW: kuha
+EN: take | FR: prendre | RW: gufata
+EN: open | FR: ouvrir | RW: gufungura
+EN: close | FR: fermer | RW: gufunga
+EN: start | FR: commencer | RW: gutangira
+EN: finish | FR: finir | RW: kurangiza
+EN: welcome | FR: bienvenue | RW: murakaza neza

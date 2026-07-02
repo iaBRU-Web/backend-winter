@@ -1,0 +1,31 @@
+EN: Basic sentence structure: Subject + Verb + Object (SVO)
+FR: Structure de base: Sujet + Verbe + Objet. Les accents: é è à ù ê î ô û ç
+RW: Imiterere: Inyito + Inshinga + Insanganyamatsiko
+
+EN: Punctuation rules: capitalize first word, end with period or question mark
+FR: Règles de ponctuation: majuscule en début, point ou point d'interrogation en fin
+RW: Amategeko y'ikirango: tangira inyuguti nkuru, rangiza na point cyangwa ikibazo
+
+EN: Common Kinyarwanda markers: muraho, murakoze, amakuru, ni meza, bite, ese
+FR: Marqueurs courants en Kinyarwanda: muraho, murakoze, amakuru
+RW: Amagambo ngenderwaho: muraho, murakoze, amakuru, ni meza
+
+EN: French is identified by accented vowels and common function words
+FR: Le français est identifié par les voyelles accentuées et les mots fonctionnels
+RW: Igifaransa kizwi n'inyuguti zikomezwa n'amagambo rusange
+
+EN: Questions in English often start with who, what, where, when, why, how
+FR: Les questions en français commencent souvent par qui, que, où, quand, pourquoi, comment
+RW: Ibibazo mu Kinyarwanda bitangira na nde, iki, he, ryari, kubera iki, gute
+
+EN: Negation in English uses not, no, never before or after the verb
+FR: La négation en français utilise ne...pas autour du verbe
+RW: Guhakana mu Kinyarwanda bikoresha nta, oya, ntabwo
+
+EN: Plural nouns in English usually add -s or -es
+FR: Le pluriel en français ajoute généralement -s ou -x
+RW: Ubwinshi mu Kinyarwanda bugaragazwa n'imiterere y'ijambo (imiterere ntoya, iy'igereranyo)
+
+EN: Politeness markers matter: please, thank you, excuse me soften requests
+FR: Les formules de politesse adoucissent les demandes: s'il vous plaît, merci, excusez-moi
+RW: Amagambo y'icyubahiro afasha mu kuvuga neza: mfasha, murakoze, mbabarira
