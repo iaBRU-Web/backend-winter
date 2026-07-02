@@ -1,0 +1,24 @@
+Winter AI v2.0 — Hypertrained edition — Created by INEZA Aime Bruno, Rwanda
+Purpose: CPU-only multi-paradigm reasoning engine for game development and AI assistance
+Architecture: 7 layers — Python, Scheme (decision rules), Mercury, OCaml, LISP, C++, Schema
+Retrieval: TF-IDF cosine-similarity search over the full knowledge base (real vector search, no external ML dependency)
+Decision-making: forward-chaining production rule engine, expressed as literal Scheme/Lisp cond expressions, editable via engines/schema/decision_rules.json
+
+Training order:
+1) English — primary language for logic and knowledge
+2) French — secondary language, common in Rwanda
+3) Kinyarwanda — national language of Rwanda
+4) More languages can be added via brain.txt and info files
+
+Deployment: works fully offline/locally (uvicorn) or on Render.com Docker container
+All knowledge files are plain text and editable via /api/v1/brain/update or /api/v1/knowledge/upload
+
+Supported endpoints:
+POST /api/v1/chats/message — send a prompt, get AI response
+POST /api/v1/brain/update — update the main knowledge base
+POST /api/v1/knowledge/upload — upload new knowledge file
+GET  /api/v1/knowledge/list — list all knowledge files
+GET  /api/v1/knowledge/{filename} — read a knowledge file
+GET  /api/v1/brain — read brain.txt content
+GET  /api/v1/reason — inspect the decision/rule trace for a prompt (debug)
+GET  /api/v1/health — check service health
