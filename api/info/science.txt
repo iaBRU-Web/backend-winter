@@ -1,0 +1,20 @@
+EN: The Earth orbits the Sun once approximately every 365.25 days, which is why calendars add a leap day roughly every four years.
+EN: Water is made of two hydrogen atoms and one oxygen atom per molecule, written as H2O.
+EN: Light from the Sun takes about eight minutes to reach Earth.
+EN: The human body has 206 bones in adulthood, though babies are born with more that fuse together over time.
+EN: Photosynthesis is the process plants use to convert sunlight, water, and carbon dioxide into glucose and oxygen.
+EN: Gravity on the Moon is about one sixth of gravity on Earth, which is why astronauts can jump much higher there.
+EN: DNA carries genetic instructions in nearly every living cell, shaped like a double helix.
+EN: Sound cannot travel through a vacuum because it needs a medium such as air, water, or solid matter to move through.
+EN: The speed of light in a vacuum is about 299,792 kilometers per second.
+EN: An atom is made of protons and neutrons in a nucleus, surrounded by electrons.
+EN: The three common states of matter are solid, liquid, and gas; plasma is often called a fourth state.
+EN: The periodic table organizes chemical elements by increasing atomic number.
+EN: A year on Mars lasts about 687 Earth days because Mars takes longer to orbit the Sun.
+EN: The human brain contains roughly 86 billion neurons that communicate through electrical and chemical signals.
+EN: Antibiotics treat bacterial infections but do not work against viruses.
+EN: Volcanic eruptions occur when magma, gas, and ash escape from beneath the Earth's crust.
+EN: A computer's CPU executes instructions, while RAM temporarily holds data the CPU is actively using.
+EN: Renewable energy sources include solar, wind, hydroelectric, and geothermal power.
+EN: The immune system defends the body using white blood cells, antibodies, and other specialized defenses.
+EN: Climate is the long-term average of weather patterns in a region, while weather describes short-term conditions.

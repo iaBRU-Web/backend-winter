@@ -1,0 +1,33 @@
+Winter AI v3.0 -- Polyglot edition -- Created by INEZA Aime Bruno, Rwanda
+Purpose: CPU-only, genuinely multi-language reasoning backend for chat and light automation.
+
+Architecture -- seven real layers, each an actual subprocess into that language's runtime:
+1) Python        -- orchestration, language detection, TF-IDF cosine-similarity retrieval
+2) Scheme        -- GNU Guile script, real (cond ...) dispatch, intent + sentiment
+3) Prolog        -- SWI-Prolog facts/rules, unification + backtracking, transitive translation
+4) Common Lisp   -- SBCL script, symbolic frame building, exact keyword-overlap match
+5) OCaml         -- natively compiled at build time, algebraic types for input validation
+6) C++           -- natively compiled at build time, Levenshtein fuzzy match + a payload
+                     shaped for Unreal Engine's Remote Control HTTP API
+7) Mercury-style  -- Python re-implementation of Mercury's determinism categories, because
+                     the real Mercury compiler has no installable package (see
+                     api/engines/mercury/BUILD_REAL_MERCURY.md for why, and an optional
+                     from-source path if you want to attempt the real thing)
+
+Deployment: Docker image built from ./Dockerfile, deployed on Render (see render.yaml).
+The frontend is a separate repo/deploy on Vercel and talks to this service over CORS.
+
+Knowledge:
+- api/info/*.txt -- curated knowledge shipped with the project
+- api/inf/teach/  -- drop your own .txt or .md files here; they are loaded automatically
+  on startup and can be reloaded live via POST /api/v1/teach/reload, without a restart.
+
+Endpoints:
+POST /api/v1/chats/message  -- send a prompt, get an answer + full reasoning trace
+POST /api/v1/reason         -- same pipeline, trimmed response for debugging
+GET  /api/v1/health         -- engine + knowledge status
+GET  /api/v1/brain          -- read brain.txt
+POST /api/v1/brain/update   -- overwrite brain.txt
+POST /api/v1/teach/upload   -- upload a knowledge file into api/inf/teach/
+POST /api/v1/teach/reload   -- re-scan api/info/ and api/inf/teach/
+GET  /api/v1/teach/list     -- list files currently loaded from api/inf/teach/

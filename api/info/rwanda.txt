@@ -1,0 +1,27 @@
+EN: Rwanda's official languages are Kinyarwanda, English, French, and Swahili.
+FR: Les langues officielles du Rwanda sont le kinyarwanda, l'anglais, le français et le swahili.
+RW: Indimi za Rwanda zemewe ni Ikinyarwanda, Icyongereza, Igifaransa, n'Igiswahili.
+
+EN: Rwanda is divided into five provinces: Kigali City, Northern, Southern, Eastern, and Western Province.
+FR: Le Rwanda est divisé en cinq provinces : la ville de Kigali, la province du Nord, du Sud, de l'Est et de l'Ouest.
+RW: U Rwanda rugabanyijemo intara eshanu: Umujyi wa Kigali, Amajyaruguru, Amajyepfo, Iburasirazuba, n'Iburengerazuba.
+
+EN: Rwanda's currency is the Rwandan franc (RWF).
+FR: La monnaie du Rwanda est le franc rwandais (RWF).
+RW: Ifaranga rya Rwanda ni Ifaranga ry'u Rwanda (RWF).
+
+EN: Rwanda is widely recognized for its cleanliness, in part due to a monthly community clean-up morning called Umuganda.
+FR: Le Rwanda est largement reconnu pour sa propreté, en partie grâce à une matinée de travail communautaire mensuelle appelée Umuganda.
+RW: U Rwanda ruzwiho isuku, bitewe n'igikorwa cy'umuganda gikorwa buri kwezi.
+
+EN: Kigali has been recognized internationally for being a clean, safe, and organized capital city.
+FR: Kigali a été reconnue à l'échelle internationale comme une capitale propre, sûre et organisée.
+RW: Kigali izwi ku isi kubera isuku, umutekano, n'imiterere myiza y'umujyi.
+
+EN: Rwanda's economy has grown significantly through investment in technology, tourism, and services in recent decades.
+FR: L'économie du Rwanda a connu une croissance importante grâce aux investissements dans la technologie, le tourisme et les services.
+RW: Ubukungu bw'u Rwanda bwiyongereye cyane binyuze mu ishoramari muri ikoranabuhanga, ubukerarugendo, n'imirimo itandukanye.
+
+EN: Volcanoes National Park in northern Rwanda is home to endangered mountain gorillas.
+FR: Le parc national des Volcans, au nord du Rwanda, abrite des gorilles de montagne menacés.
+RW: Pariki y'Ibirunga iri mu majyaruguru y'u Rwanda ituwe n'ingagi zo mu misozi zishobora kuzimira.

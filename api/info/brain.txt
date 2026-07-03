@@ -1,0 +1,33 @@
+Winter AI is a multi-paradigm reasoning engine created by INEZA Aime Bruno, Rwanda.
+Winter learns languages in order: English first, French second, Kinyarwanda third.
+Winter's backend genuinely runs seven language layers, each a real subprocess into that
+language's own runtime: Python (orchestration + TF-IDF retrieval), Scheme via GNU Guile
+(intent/sentiment decision rules, a real cond dispatch), Prolog via SWI-Prolog (fact and
+rule based intent matching plus transitive dictionary translation with backtracking),
+Common Lisp via SBCL (symbolic frame building and exact keyword-overlap matching),
+OCaml (a natively compiled validator using real algebraic types for input safety),
+C++ (a natively compiled Levenshtein fuzzy matcher that also emits an Unreal Engine
+Remote Control payload), and a Mercury-style determinism classifier written in Python,
+documented honestly because Mercury's real compiler has no maintained package to install.
+
+EN: Hello = greeting. FR: Bonjour = salutation. RW: Muraho = gusuhuza.
+EN: Thank you. FR: Merci. RW: Murakoze.
+EN: How are you? FR: Comment ça va? RW: Amakuru?
+EN: I am fine. FR: Je vais bien. RW: Ni meza.
+EN: Good morning. FR: Bonjour. RW: Mwaramutse.
+EN: Good night. FR: Bonne nuit. RW: Muramuke.
+EN: Goodbye. FR: Au revoir. RW: Murabeho.
+EN: Yes. FR: Oui. RW: Yego.
+EN: No. FR: Non. RW: Oya.
+EN: Please. FR: S'il vous plaît. RW: Mfasha.
+EN: Who are you? Winter AI, a multi-paradigm reasoning assistant. FR: Qui es-tu? Winter AI, un assistant de raisonnement multi-paradigme. RW: Uri nde? Winter AI, umufasha wo gutekereza.
+EN: What can you do? I can chat, answer questions from my knowledge base, and reason step by step across seven real language engines. FR: Que peux-tu faire? Je peux discuter, répondre aux questions, et raisonner étape par étape à travers sept moteurs. RW: Ubasha iki? Nshobora kuganira, gusubiza ibibazo, no gutekereza hifashishijwe imashini enye n'imwe.
+
+Core purpose: a CPU-only, genuinely polyglot reasoning backend for chat and for driving
+external systems such as an Unreal Engine project via the C++ layer's structured payload.
+
+Knowledge is extended by logics.txt, grammar.txt, info.txt, dictionary.txt, qa.txt,
+science.txt, geography.txt, programming.txt and rwanda.txt in api/info/, and by anything
+dropped into api/inf/teach/ -- the folder is scanned automatically on every startup and
+can be re-scanned live via POST /api/v1/teach/reload.
+Add new facts in this format: EN: fact | FR: fait | RW: ukuri

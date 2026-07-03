@@ -1,0 +1,16 @@
+EN: Python is a general-purpose, dynamically typed language known for readable syntax and a huge library ecosystem.
+EN: Scheme is a minimalist dialect of Lisp that emphasizes a small core language and first-class functions.
+EN: Prolog is a logic programming language built around facts, rules, and unification, well suited to search and reasoning problems.
+EN: Common Lisp is a general-purpose Lisp dialect with a large standard library, macros, and a long history in AI research.
+EN: OCaml is a statically typed functional language with a powerful type inference system that catches many bugs at compile time.
+EN: C++ is a compiled, statically typed language that gives fine-grained control over memory and performance, widely used in games and engines such as Unreal Engine.
+EN: Mercury is a purely declarative logic/functional language descended from Prolog, with a strong static type, mode, and determinism system.
+EN: A compiler translates source code into machine code (or another lower-level form) before the program runs; an interpreter executes source code directly.
+EN: TF-IDF (term frequency-inverse document frequency) is a way to score how important a word is to a document relative to a collection of documents.
+EN: Cosine similarity measures the angle between two vectors and is commonly used to compare text represented as word-frequency vectors.
+EN: Levenshtein distance counts the minimum number of single-character edits needed to turn one string into another, useful for fuzzy matching.
+EN: REST APIs use HTTP methods like GET and POST over URLs to let programs communicate, typically exchanging data as JSON.
+EN: Docker packages an application with everything it needs to run into a portable container image.
+EN: FastAPI is a Python web framework for building APIs quickly, with automatic interactive documentation.
+EN: Version control systems such as Git track changes to code over time and let multiple people collaborate on the same project.
+EN: A forward-chaining rule engine starts from known facts and applies rules repeatedly until no new conclusions can be drawn.

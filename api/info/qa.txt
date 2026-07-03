@@ -1,0 +1,47 @@
+EN: Winter AI is a multi-paradigm reasoning assistant built for CPU-only environments and game development tooling.
+FR: Winter AI est un assistant de raisonnement multi-paradigme conçu pour des environnements CPU uniquement et les outils de développement de jeux.
+RW: Winter AI ni umufasha wo gutekereza ukoresha uburyo bwinshi, wakorewe ibikoresho bidakeneye GPU no gukora imikino.
+
+EN: Winter AI was created by INEZA Aime Bruno in Rwanda.
+FR: Winter AI a été créé par INEZA Aime Bruno au Rwanda.
+RW: Winter AI yaremwe na INEZA Aime Bruno mu Rwanda.
+
+EN: Winter AI answers in English, French, or Kinyarwanda depending on what you type or select.
+FR: Winter AI répond en anglais, français ou kinyarwanda selon ce que vous tapez ou sélectionnez.
+RW: Winter AI isubiza mu Cyongereza, Igifaransa cyangwa Ikinyarwanda bitewe n'icyo wanditse cyangwa uhisemo.
+
+EN: The reasoning pipeline has seven real layers: Python orchestration and TF-IDF retrieval, Scheme (GNU Guile) decision rules, Prolog (SWI-Prolog) facts and translation, Common Lisp (SBCL) symbolic matching, OCaml native validation, C++ native fuzzy matching, and a Mercury-style determinism check.
+FR: Le pipeline de raisonnement comporte sept couches réelles : orchestration Python, règles de décision Scheme (GNU Guile), faits et traduction Prolog (SWI-Prolog), correspondance symbolique Common Lisp (SBCL), validation native OCaml, correspondance floue native C++, et une vérification de déterminisme de style Mercury.
+RW: Urwego rwo gutekereza rugizwe n'ingingo nyazo zirindwi: gutunganya kwa Python, amategeko ya Scheme (Guile), inyandiko za Prolog, guhuza kwa Common Lisp, kugenzura kwa OCaml, guhuza kwa C++, n'isuzuma rishingiye kuri Mercury.
+
+EN: You can teach Winter AI new facts by dropping a .txt or .md file into api/inf/teach/, or by uploading one through POST /api/v1/teach/upload.
+FR: Vous pouvez apprendre de nouveaux faits à Winter AI en déposant un fichier .txt ou .md dans api/inf/teach/, ou en le téléversant via POST /api/v1/teach/upload.
+RW: Ushobora kwigisha Winter AI ibintu bishya washyira dosiye .txt cyangwa .md muri api/inf/teach/, cyangwa ukayishyiraho ukoresheje POST /api/v1/teach/upload.
+
+EN: Winter AI's backend does not require internet access once deployed; only the initial Docker build needs it to install the language toolchains.
+FR: Le backend de Winter AI ne nécessite pas d'accès internet une fois déployé ; seule la construction initiale de l'image Docker en a besoin.
+RW: Backend ya Winter AI ntabwo isaba interineti nyuma yo gushyirwaho; gusa kubaka Docker bwa mbere ni bwo bwifuza interineti.
+
+EN: The retrieval engine ranks knowledge lines using TF-IDF weighted cosine similarity, so more relevant facts score higher.
+FR: Le moteur de recherche classe les lignes de connaissances grâce à la similarité cosinus pondérée TF-IDF, donnant un meilleur score aux faits les plus pertinents.
+RW: Uburyo bwo gushakisha bushyira ku rutonde imirongo y'ubumenyi hifashishijwe TF-IDF, bigatuma amakuru y'ingenzi agira amanota menshi.
+
+EN: Winter AI's Scheme layer runs on real GNU Guile and shows its reasoning as a literal S-expression for transparency, not a Python string pretending to be one.
+FR: La couche Scheme de Winter AI tourne sur GNU Guile réel et montre son raisonnement sous forme d'expression S littérale, pas une chaîne Python qui l'imite.
+RW: Urwego rwa Scheme rwa Winter AI rukoresha GNU Guile nyayo kandi rugaragaza uko gutekereza kwabaye mu buryo bw'ukuri.
+
+EN: Game developers can feed Winter AI's C++ layer output into Unreal Engine's Remote Control HTTP API to drive an NPC or blueprint from chat replies.
+FR: Les développeurs de jeux peuvent envoyer la sortie de la couche C++ de Winter AI vers l'API Remote Control d'Unreal Engine pour piloter un PNJ ou un blueprint.
+RW: Abakora imikino bashobora gukoresha ibisohoka mu rwego rwa C++ rwa Winter AI kugira ngo bayobore ikintu muri Unreal Engine.
+
+EN: Winter AI's knowledge base can grow without limit; every fact added to api/info/ or api/inf/teach/ improves future answers after a reload.
+FR: La base de connaissances de Winter AI peut grandir sans limite ; chaque fait ajouté à api/info/ ou api/inf/teach/ améliore les réponses futures après un rechargement.
+RW: Ubumenyi bwa Winter AI bushobora kwiyongera nta mipaka; buri kintu cyongewe muri api/info/ cyangwa api/inf/teach/ gitera imbere ibisubizo bizaza.
+
+EN: Winter AI is CPU-only by design, so it can run on modest hardware without a graphics card.
+FR: Winter AI fonctionne uniquement sur CPU par conception, il peut donc tourner sur du matériel modeste sans carte graphique.
+RW: Winter AI yakorewe gukoresha CPU gusa, bityo ishobora gukorera kuri mudasobwa itoya idafite igikoresho cy'amashusho gikomeye.
+
+EN: Mercury's real compiler has no maintained package on modern Linux distributions, so Winter AI's Mercury layer is an openly documented Python re-implementation of Mercury's determinism categories rather than a hidden fake.
+FR: Le vrai compilateur Mercury n'a pas de paquet maintenu sur les distributions Linux modernes, donc la couche Mercury de Winter AI est une réimplémentation Python ouvertement documentée plutôt qu'une imitation cachée.
+RW: Porogaramu nyayo ya Mercury nta paki ifite ku mfashanyo za Linux za none, bityo urwego rwa Mercury rwa Winter AI ni ugusubiramo kwa Python kwanditswe neza.

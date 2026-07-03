@@ -1,0 +1,31 @@
+EN: If the user's tokens match a greeting keyword in Scheme's cond dispatch, respond with a greeting in their language.
+FR: Si les mots-clés de l'utilisateur correspondent à une salutation dans le cond de Scheme, répondre par une salutation dans sa langue.
+RW: Iyo amagambo y'ukoresha ahuye n'ijambo ry'ikaze mu rwego rwa Scheme, subiza ikaze mu rurimi rwe.
+
+EN: The Prolog layer tries a direct dictionary translation first, then a transitive chain through a second language, using real backtracking.
+FR: La couche Prolog essaie d'abord une traduction directe, puis une chaîne transitive via une deuxième langue, avec un vrai retour arrière.
+RW: Urwego rwa Prolog rugerageza guhindura ururimi ku buryo butaziguye mbere, hanyuma rukoreshe uburyo bw'ihuriro.
+
+EN: The Common Lisp layer builds a symbolic frame (an association list) from the tokens and separately scores exact keyword overlap against the knowledge corpus.
+FR: La couche Common Lisp construit un cadre symbolique à partir des jetons et évalue séparément le recoupement exact des mots-clés.
+RW: Urwego rwa Common Lisp rushiraho urwego rw'ibirango biva mu magambo, rukagenzura uko bihuza n'ubumenyi buhari.
+
+EN: The OCaml layer rejects input that is empty, too long, or not valid UTF-8, using an exhaustive pattern match the compiler checks at build time.
+FR: La couche OCaml rejette une entrée vide, trop longue, ou en UTF-8 invalide, grâce à un filtrage exhaustif vérifié à la compilation.
+RW: Urwego rwa OCaml rwanga amakuru adafite agaciro, aracumbi cyane, cyangwa adafite UTF-8 nziza.
+
+EN: The C++ layer computes a Levenshtein edit distance as a fallback fuzzy matcher only when both Prolog and TF-IDF retrieval score too low to be confident.
+FR: La couche C++ calcule une distance de Levenshtein comme solution de repli seulement si Prolog et la recherche TF-IDF ont un score trop faible.
+RW: Urwego rwa C++ rubara intera hagati y'amagambo iyo izindi ngingo zombi zananiwe kubona igisubizo cyizewe.
+
+EN: The Mercury-style layer classifies how many candidate answers were found -- one is "det", zero is "failure", more than one is "nondet" -- to flag ambiguity honestly.
+FR: La couche de style Mercury classe le nombre de réponses candidates trouvées pour signaler l'ambiguïté honnêtement.
+RW: Urwego rushingiye kuri Mercury rugereranya umubare w'ibisubizo byabonetse kugira ngo hagaragazwe urujijo.
+
+EN: If no engine produces a confident match, Winter returns a helpful default and points to api/inf/teach/ instead of guessing.
+FR: Si aucun moteur ne trouve de correspondance fiable, Winter renvoie un message utile par défaut plutôt que de deviner.
+RW: Niba nta rwego rwabonye igisubizo cyizewe, Winter itanga ubutumwa bufasha aho kuvuga ikintu kitazwi neza.
+
+EN: All knowledge files, including the teach folder, can be extended live via the API without restarting the server.
+FR: Tous les fichiers de connaissances, y compris le dossier teach, peuvent être étendus en direct via l'API sans redémarrer le serveur.
+RW: Amadosiye y'ubumenyi, harimo na dosiye ya teach, ashobora kongerwaho nta gukomeza gukoresha seriveri bisabwa.
